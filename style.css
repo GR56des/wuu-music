@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+
+body {
+    font-family: "Kosugi Maru", sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #000;
+    margin-top: 40px;
+    border-left: 5px solid #aaa;
+    padding-left: 10px;
+}
+
+ul {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+strong {
+    background-color: #eee;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 15px;
+    }
+}
